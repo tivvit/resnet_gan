@@ -1,0 +1,8 @@
+version: "3"
+services:
+  tf:
+    image: tensorflow/tensorflow:1.5.0
+    volumes:
+      - ".:/notebooks"
+    ports:
+      - "8888:8888"
